@@ -1,0 +1,23 @@
+
+
+.footer{
+    font-family: Edwardian Script ITC;
+    margin-top: 5%;
+    margin-left: 80%;
+    font-size: 1.2rem;
+}
+.linkGCP{
+text-decoration: none;
+color: red;
+font-size: 1.5rem;
+}
+.linkGCP:hover{
+    color: black;
+}
+
+@media (min-width: 280px) and (max-width: 767px){
+    .footer{
+        margin-top: 55%;
+        margin-left: 55%;
+    }
+}

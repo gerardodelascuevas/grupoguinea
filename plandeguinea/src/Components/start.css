@@ -1,0 +1,85 @@
+html, body {  
+    margin:0px;  
+    height:100%;  
+  } 
+ 
+.start{    
+    width: 45%;
+    height: 50%;
+   /* display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   padding-left: 40%;
+   padding-top: 8rem; */
+   display: flex;
+   margin-left: 30%;
+   padding-top: 13.5rem;
+  
+
+    /* background-image: url(./img/foto-aerea-plan-de-guinea.jpg); */
+}
+#grupoguineatitulo{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    color: black;
+    padding-top: 3rem;
+ }
+ .imgstart{
+     width: 50%;
+     height: 40%;
+     margin-left: 23%;
+     
+ }
+ 
+ .imgstart:hover{
+     -webkit-transform:scale(1.5);
+ -moz-transform:scale(1.5);
+ -ms-transform:scale(1.5);
+ -o-transform:scale(1.5);
+ transform:scale(1.5);
+ /* transform: scale(1.6) rotate(10deg); */
+ }
+ 
+  .linkletras{
+      padding: 0rem;
+      margin-top: 1rem;
+     /* text-decoration: solid; */
+      color: black;
+      opacity: 0;
+     
+      
+  }
+ 
+  .linkletras:hover{
+     /* transform: translate(-50%, -50%) scale(1); */
+     opacity: 1;
+  }
+  #container-start{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,121,9,0) 0%, rgba(0,255,149,1) 46%, rgba(95,255,0,1) 100%);
+  }
+@media (min-width: 280px) and (max-width: 767px) {
+    
+   .start{       
+    margin-left: 20%;
+    margin-top:-10%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+   }
+   
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media (min-width: 1200px) {
+}             
